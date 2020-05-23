@@ -440,33 +440,33 @@ textarea {
   -webkit-appearance: none;
   box-sizing: border-box;
   padding: 0.3rem 0.5rem;
-  border: 1px solid #999;
+  border: 1px solid #fff;
 }
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  color: #999;
+  color: #fff;
 }
 input::-moz-placeholder,
 textarea::-moz-placeholder {
   opacity: 1;
-  color: #999;
+  color: #fff;
 }
 input:-moz-placeholder,
 textarea:-moz-placeholder {
-  color: #999;
+  color: #fff;
 }
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-  color: #999;
+  color: #fff;
 }
 input.placeholder,
 textarea.placeholder {
-  color: #999;
+  color: #fff;
 }
 
 input:focus,
 textarea:focus {
-  border-color: #000;
+  border-color: #fff;
 }
 
 select {
@@ -484,6 +484,10 @@ input[type=reset],
 input[type=file],
 input[type=submit] {
   cursor: pointer;
+}
+
+*:focus {
+  outline: none;
 }
 
 html {
